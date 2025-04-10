@@ -1,0 +1,37 @@
+# Node / React / Vite
+node_modules/
+dist/
+.vite/
+
+# Go binaries
+*.exe
+*.out
+*.test
+main
+go.sum
+
+# Python (if used with pano-stitcher)
+__pycache__/
+*.py[cod]
+*.env
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+coverage/
+
+# Ignore uploaded or generated images
+images/src/
+images/output/
+uploads/

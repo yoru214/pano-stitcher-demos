@@ -73,7 +73,7 @@ export default function ImageUploader() {
         if (images.length === 0) return;
 
         const formData = new FormData();
-        images.forEach((img) => formData.append("images[]", img));
+        images.forEach((img) => formData.append("images", img));
 
         setUploading(true);
         setResultUrl(null);
